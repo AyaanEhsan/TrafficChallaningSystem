@@ -1,0 +1,35 @@
+CHAR AT:-
+s[i].toUpperCase().charAt(0);
+
+
+SPLIT:-
+String str = "geekss@for@geekss"; 
+String[] arrOfStr = str.split("@", 5);
+
+
+REPLACE:-
+String replaceString=s1.replace("is","was");
+
+
+MATCHES:-
+String Str = new String("Welcome to Tutorialspoint.com");
+System.out.print("Return Value :" );
+System.out.println(Str.matches("(.*)Tutorials(.*)"));
+
+"^[A-Za-z0-9+_.-]+@(.+)$"
+
+CONTAINS:-
+String myStr = "Hello";
+System.out.println(myStr.contains("Hel"));   // true
+System.out.println(myStr.contains("e"));     // true
+System.out.println(myStr.contains("Hi"));
+
+
+ARRAYS:-
+Arrays.sort();
+
+
+CHARACHTER/STRING:-
+1. str.charAt();
+2. str.eqaulsIgnoreCase(str1);
+   !(str.eqaulsIgnoreCase(str1));
